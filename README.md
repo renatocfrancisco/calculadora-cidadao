@@ -8,3 +8,19 @@ Financiamento de Prestações Fixas
 ![Calculo - q0 = (((1 - (1 + j) ** -n)) / j) * p](img/image_calc_met_financiamento.png)
 
 Fonte: [bcb.gov.br](https://www3.bcb.gov.br/CALCIDADAO/publico/exibirMetodologiaFinanciamentoPrestacoesFixas.do?method=exibirMetodologiaFinanciamentoPrestacoesFixas)
+
+## Comandos
+
+```shell
+uv init
+uv add fastapi[all]
+uv run uvicorn main:app
+```
+
+```shell
+python -m venv venv
+venv\Scripts\activate
+pip install fastapi[all]
+uvicorn main:app
+````
+
